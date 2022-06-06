@@ -5,13 +5,12 @@ export default function Base(props: { children: ReactNode }) {
     <html lang="en">
       <head>
         <meta charSet="UTF-8" />
-        <title>My Adonis website</title>
-        <link
-          href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
-          rel="stylesheet"
-        />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hellish Heaven</title>
+        <link rel="stylesheet" href="/assets/app.css" />
       </head>
       <body>{props.children}</body>
     </html>
-  );
+  )
 }
